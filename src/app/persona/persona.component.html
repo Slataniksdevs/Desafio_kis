@@ -1,0 +1,59 @@
+<div class="container">
+    <h2>Ingresar Persona</h2>
+    <form>
+      <div class="form-group">
+        <label>Nombre:</label>
+        <input type="text" formControlName="nombre" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Apellido:</label>
+        <input type="text" formControlName="apellido" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>RUT:</label>
+        <input type="text" formControlName="rut" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Sexo:</label>
+        <input type="text" formControlName="sexo" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Teléfono:</label>
+        <input type="text" formControlName="telefono" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Dirección:</label>
+        <input type="text" formControlName="direccion" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" formControlName="fechaNacimiento" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Correo Electrónico:</label>
+        <input type="email" formControlName="correoElectronico" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary"></button>
+      <button type="button" class="btn btn-secondary" >Cancelar</button>
+    </form>
+  
+    <h2>Personas</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>RUT</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+            <button class="btn btn-sm btn-info" >Editar</button>
+            <button class="btn btn-sm btn-danger" >Eliminar</button>
+       
+       
+      </tbody>
+    </table>
+  </div>
+  
